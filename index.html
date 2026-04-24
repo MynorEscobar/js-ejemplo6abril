@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+</head>
+<body>
+    <header>
+        <h1>JavaScript: Ejemplo 1</h1>
+    </header>
+    <nav>
+
+    </nav>
+    <main>
+        <button type="button" 
+            onclick="document.getElementById('mensaje').innerHTML='hola'">
+            Información
+        </button>
+        <p onclick="document.getElementById('mensaje').innerHTML ='clic en parrafo'">
+            Clic en este parrafo    
+        </p>
+        <div ondblclick="document.getElementById('informacion').innerHTML='Doble clic'"
+            onclick="document.getElementById('informacion').innerHTML=''"
+        >
+            Haz doble clic
+        </div>
+        <section id="mensaje">
+            aquí aparecerá el mensaje al dar clic en el botón.
+        </section>
+        <p id="informacion">
+
+        </p>
+    </main>
+</body>
+</html>
